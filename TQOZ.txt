@@ -1,0 +1,2365 @@
+0->T
+0->theta
+0->U
+0->X
+0->Q
+Lbl 2
+ClrHome
+If T>=10
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE"
+	Disp "CANONIER"
+	Disp "CODE : 2196"
+	Pause 
+	ClrHome
+End
+0->T
+0->W
+0->Y
+Menu("MENU PRINCIPALE","JOUER",0,"STATS",71,"REINITIALISER",68,"SUCCES",67,"CODES",69,"CREDIT",93,"QUITTER",1)
+Lbl 1
+Stop
+Lbl 67
+Input "CODE : ",A
+ClrHome
+If A=8164
+Then
+	Disp "SAUT DE L ANGE"
+	Disp "MOURREZ EN"
+	Disp "TOMBANT"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=5437
+Then
+	Disp "PARADOXE"
+	Disp "FAITES UN PERSO"
+	Disp "IMPROBABLE"
+	Disp "(CANARD NON"
+	Disp "COMPRIS)"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=2196
+Then
+	Disp "CANONIER"
+	Disp "ACCUMULEZ 10"
+	Disp "POUDRE A CANON"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=5638
+Then
+	Disp "DU MAL A"
+	Disp "RESPIRER ? :"
+	Disp "MOURREZ DANS LA"
+	Disp "CHAMBRE A GAZ"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=3624
+Then
+	Disp "ENVI DE RAGER ?:"
+	Disp "MOURREZ FACE A"
+	Disp "UN CREEPER ALORS"
+	Disp "QU IL A ESQUIVE"
+	Disp "UN COUP MORTEL"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=8720
+Then
+	Disp "J AVAIS PAS"
+	Disp "PIED :"
+	Disp "MOURREZ EN VOUS"
+	Disp "NOYANT"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=0032
+Then
+	Disp "UNE MORT"
+	Disp "HONORABLE :"
+	Disp "MOURREZ CONTRE"
+	Disp "UN ADVERSAIRE"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=1020
+Then
+	Disp "QUEL ARNAQUE :"
+	Disp "TROUVEZ UN"
+	Disp "COFFRE VIDE AU"
+	Disp "DESERT"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=4812
+Then
+	Disp "CE QUI COMPTE,"
+	Disp "C EST LA"
+	Disp "VOLONTE :"
+	Disp "TUEZ DIEU AVEC"
+	Disp "UN CANARD RANGER"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=6111
+Then
+	Disp "BESOIN D EAU ? :"
+	Disp "MOURREZ DE"
+	Disp "CHAUD DANS LE"
+	Disp "DESERT"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=4216
+Then
+	Disp "SI PRES DU BUT :"
+	Disp "MOURREZ FACE A"
+	Disp "ZIRK ALORS QU IL"
+	Disp "LUI RESTE 5 P\V"
+	Disp "OU MOINS"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=9875
+Then
+	Disp "MINCE, JE NE"
+	Disp "SUIS PAS"
+	Disp "DEDANS :"
+	Disp "LISEZ LES"
+	Disp "CREDITS"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=1003
+Then
+	Disp "ET DE 10 :"
+	Disp "TUEZ 10 ENNEMIS"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=3121
+Then
+	Disp "20/20 :"
+	Disp "TUEZ 20 ENNEMIS"
+	Pause 
+	ClrHome
+End
+If A=8913
+Then
+	Disp "GENOCIDE :"
+	Disp "TUEZ 50 ENNEMIS"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=4502
+Then
+	Disp "MIEUX QUE"
+	Disp "HOLLANDE :"
+	Disp "SOYEZ ELU MAIRE"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=8202
+Then
+	Disp "MAIS EN FAITES,"
+	Disp "POURQUOI T EST"
+	Disp "JE TUE :"
+	Disp "TUEZ ZIRK"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=1200
+Then
+	Disp "CE N EST Q UN"
+	Disp "GRAND LEZARD"
+	Disp "AILE :"
+	Disp "TUEZ UN DRAGON"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=3429
+Then
+	Disp "PAS CROYANT :"
+	Disp "TUEZ DIEU"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=2842
+Then
+	Disp "TROP FORT"
+	Disp "L ANIMAL :"
+	Disp "TUEZ ZIRK AVEC"
+	Disp "UN CANARD RANGER"
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=7367
+Then
+	Disp "PROPAGATION :"
+	Disp "TROUVEZ LE CODE"
+	Disp "CACHE"
+	Pause 
+	ClrHome
+	Goto 2
+End
+Disp "CODE INCORECT"
+Pause 
+ClrHome
+Goto 2
+Lbl 69
+Input "CODE : ",A
+ClrHome
+If A=8719
+Then
+	If Q=0
+	Then
+		1->Q
+		Disp "DIEU ACTIVE"
+	Else
+		0->Q
+		Disp "DIEU DESACTIVE"
+	End
+	Pause 
+	ClrHome
+	Goto 2
+End
+If A=1234
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "PROPAGATION"
+	Disp "CODE : 7367"
+	Pause 
+	ClrHome
+	Goto 2
+End
+Disp "CODE INCORRECT"
+Pause 
+ClrHome
+Goto 2
+Lbl 68
+0->theta
+0->U
+0->X
+Disp "FAIT"
+Pause 
+ClrHome
+Goto 2
+Lbl 71
+Disp "ENNEMIS TUER :"
+Disp theta
+Disp "DEGAT INFLIGE :"
+Disp U
+Disp "DEGAT RECU :"
+Disp X
+Pause 
+ClrHome
+If theta>=10
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "ET DE 10"
+	Disp "CODE : 1003"
+	Pause 
+	ClrHome
+End
+If theta>=20
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "20/20"
+	Disp "CODE : 3121"
+	Pause 
+	ClrHome
+End
+If theta>=50
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "GENOCIDE"
+	Disp "CODE : 8913"
+	Pause 
+	ClrHome
+End
+Goto 2
+Lbl 13
+ClrHome
+Menu("COMBAT","TAPER",4,"SORT",5,"POTION VIE",6,"ATTENDRE",7)
+Lbl 4
+randInt(1,20)->A
+If N=22 and A!=1
+Then
+	Disp "VOTRE ENNEMI EST"
+	Disp "IMMATERIEL,"
+	Disp "VOTRE COUP PASSE"
+	Disp "A TRAVERS"
+	Pause 
+	ClrHome
+	Goto 12
+End
+randInt(1,5)->A
+A+B->A
+F/3->R
+If K>R
+Then
+	randInt(1,5)->R
+	If R=1
+	Then
+		A*2->A
+		2->R
+	End
+End
+If V>L
+randInt(1,5)->R
+If R!=1
+Then
+	F-A->F
+	Disp "VOUS ATTAQUEZ"
+	Disp "VOTRE ENNEMI
+	Disp "PERT :"
+	Disp A
+	U+A->U
+	Disp "IL LUI RESTE :"
+	If F<0
+	0->F
+	Disp F
+Else
+	Disp "VOTRE ENNEMI"
+	Disp "EVITE VOTRE"
+	Disp "ATTAQUE"
+	If N=28 and A>=15
+	Then
+		Pause 
+		ClrHome
+		Disp "SUCCES"
+		Disp "DEVEROUILLE :"
+		Disp "ENVI DE RAGER ?"
+		Disp "CODE : 3624"
+	End
+End
+Pause 
+ClrHome
+Goto 12
+End
+End
+Lbl 5
+Menu("SORT","BOULE DE FEU",8,"FOUDRE",9,"SOIN",10,"MEUH",11,"RETOUR",13)
+Lbl 8
+If E=0
+Then
+	Disp "PAS ASSEZ DE"
+	Disp "MANA"
+	Pause 
+	ClrHome
+	Goto 13
+End
+randInt(10,30)->A
+F-A->F
+E-1->E
+U+A->U
+Disp "VOUS LANCEZ UNE"
+Disp "BOULE DE FEU,"
+Disp "DEGATS :"
+Disp A
+Disp "IL LUI RESTE :"
+If F<0
+0->F
+Disp F
+Disp "-1 MANA"
+Pause 
+ClrHome
+Disp "MANA RESTANTE :"
+Disp E
+Pause 
+ClrHome
+Goto 12
+Lbl 9
+If E<2
+Then
+	Disp "PAS ASSEZ DE"
+	Disp "MANA"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If N=15
+Then
+	Disp "PIKATCHU RESISTE"
+	Disp "A LA FOUDRE"
+	Pause 
+	ClrHome
+	E-2->E
+Else
+	F-30->F
+	E-2->E
+	U+30->U
+	Disp "VOUS LANCEZ DE"
+	Disp "LA FOUDRE, VOUS"
+	Disp "INFLIGEZ :"
+	Disp "30"
+End
+Disp "IL LUI RESTE :"
+If F<0
+0->F
+Disp F
+Disp "-2 MANA"
+Pause 
+ClrHome
+Disp "MANA RESTANTE :"
+Disp E
+Pause 
+ClrHome
+Goto 12
+Lbl 10
+If E=0
+Then
+	Disp "PAS ASSEZ DE"
+	Disp "MANA"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If N=19
+Then
+	U+F->U
+	0->F
+	Disp "VOTRE ENNEMI EST"
+	Disp "MORT"
+	Disp "-1 MANA"
+	E-1->E
+	Pause 
+	ClrHome
+	Disp "MANA RESTANTE :"
+	Disp E
+	Pause 
+	ClrHome
+	Goto 12
+Else
+	F+5->F
+	E-1->E
+	Disp "VOUS SOIGNEZ"
+	Disp "VOTRE ENNEMI, IL"
+	Disp "REGAGNE :"
+	Disp "5"
+	Disp "IL A :"
+	Disp F
+	Disp "-1 MANA"
+	Pause 
+	ClrHome
+	Disp "MANA RESTANTE :"
+	Disp E
+	Pause 
+	ClrHome
+	Goto 12
+End
+Lbl 11
+If E=0
+Then
+	Disp "PAS ASSEZ DE"
+	Disp "MANA"
+	Pause 
+	ClrHome
+	Goto 13
+End
+E-1->E
+Disp "MEUH"
+Disp "-1 MANA"
+If N=14
+Then
+	Disp "VOTRE ENNEMI"
+	Disp "S ENFUIT"
+	Pause 
+	ClrHome
+	Disp "MANA RESTANTE :"
+	Disp E
+	Pause 
+	ClrHome
+	Goto 86
+End
+Pause 
+ClrHome
+Disp "MANA RESTANTE :"
+Disp E
+Pause 
+ClrHome
+Goto 12
+Lbl 6
+If G=0
+Then
+	Disp "PLUS DE POTIONS"
+	Pause 
+	ClrHome
+	Goto 13
+End
+G-1->G
+If H<I
+I->H
+Disp "VOUS BUVEZ UNE"
+Disp "POTION"
+Disp "IL VOUS EN"
+Disp "RESTE :"
+Disp G
+Disp "VOS P\V :"
+Disp H
+Pause 
+ClrHome
+Goto 12
+Lbl 7
+Disp "VOUS ATTENDEZ"
+Pause 
+ClrHome
+Goto 12
+Lbl 12
+If F=0
+Then
+	theta+1->theta
+	Disp "GAGNE"
+	Pause 
+	ClrHome
+	If N=1
+	Goto 25
+	If N>=2 and N<=4
+	Goto 29
+	If N=11
+	Goto 79
+	If N>=12 and N<=16 or N>=28 and N<=32
+	Goto 80
+	If N=17
+	Goto 91
+	If N>=18 and N<=27
+	Goto 99
+	If N=33
+	Goto 95
+	If N=34
+	Goto 74
+End
+ClrHome
+randInt(1,3)->A
+If N=1 and F<=5 and O>0 and A=1
+Then
+	Disp "VOTRE ENNEMI"
+	Disp "S ENFUIT"
+	Disp "(AVEC VOTRE OR)"
+	Pause 
+	ClrHome
+	S+O->S
+	0->O
+	Goto 26
+End
+If N=28
+Then
+	Disp "BOUM"
+	Pause 
+	ClrHome
+End
+If N=23
+Then
+	Disp "VOTRE ENNEMI"
+	Disp "LANCE UNE BOULE"
+	Disp "DE FEU,"
+	Pause 
+	ClrHome
+End
+If N=23
+randInt(5,20)->A
+Disp "VOTRE ENNEMI"
+Disp "VOUS ATTAQUE,"
+If N!=23
+Then
+	randInt(1,5)->A
+	J/2->R
+	If L>R and A=1
+	Then
+		Disp "VOUS ESQUIVEZ LE"
+		Disp "COUP DE VOTRE"
+		Disp "ENNEMI"
+		Pause 
+		ClrHome
+		Goto 13
+	End
+End
+If N!=23
+Then
+	randInt(1,5)->A
+	J-A->A
+End
+K/2->R
+If V>R
+Then
+	randInt(1,5)->R
+	If R=1
+	Then
+		Disp "IL FAIT UN COUP"
+		Disp "CRITIQUE"
+		Pause 
+		ClrHome
+		A*2->A
+	End
+End
+A-M->A
+If A<0
+0->A
+H-A->H
+If H<0
+0->H
+Disp "IL VOUS FAIT"
+Disp "PERDRE :"
+Disp A
+X+A->X
+Disp "IL VOUS RESTE :"
+Disp H
+Pause 
+ClrHome
+If N=21
+Then
+	Disp "IL REGAGNE :"
+	Disp A
+	F+A->F
+	Disp "IL A :"
+	Disp F
+	Pause 
+	ClrHome
+End
+If H=0
+Then
+	Disp "PERDU"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "UNE MORT"
+	Disp "HONORABLE"
+	Disp "CODE : 0032"
+	Pause 
+	ClrHome
+	If N=17 and F<=5
+	Then
+		Disp "SUCCES"
+		Disp "DEVEROUILLE :"
+		Disp "SI PRES DU BUT"
+		Disp "CODE : 4216"
+		Pause 
+		ClrHome
+	End
+	Goto 2
+End
+Goto 13
+Lbl 0
+Menu("RACE :","HUMAIN",14,"ELFE",15,"NAIN",16,"HOBBIT",17,"CANARD",18)
+Lbl 14
+30->I:30->H:5->B:5->K:5->L:2->G:0->O:5->E:1->D:1->M
+Goto 19
+Lbl 15
+25->I:25->H:3->B:7->K:7->L:1->G:0->O:10->E:2->D:0->M
+Goto 19
+Lbl 16
+35->I:35->H:8->B:2->K:2->L:2->G:10->O:0->E:3->D:2->M
+Goto 19
+Lbl 17
+30->I:30->H:3->B:5->K:7->L:5->G:0->O:5->E:4->D:0->M
+Goto 19
+Lbl 18
+25->I:25->H:3->B:3->K:3->L:1->G:5->O:0->E:5->D:0->M
+Goto 19
+Lbl 19
+Menu("CLASSE :","GUERRIER",82,"MAGE",81,"VOLEUR",3,"PRETRE",83,"RANGER",84)
+Lbl 82
+I+5->I
+H+5->H
+B+2->B
+K-2->K
+L-2->L
+0->E
+M+1->M
+1->C
+Goto 72
+Lbl 81
+I-5->I
+H-5->H
+B-6->B
+If B<0
+0->B
+K+2->K
+L-4->L
+If L<0
+0->L
+E+10->E
+0->M
+2->C
+Goto 72
+Lbl 3
+I-5->I
+H-5->H
+B-2->B
+L+4->L
+O+10->O
+M-1->M
+If M<0
+0->M
+3->C
+Goto 72
+Lbl 83
+I+10->I
+H+10->H
+B-4->B
+If B<0
+0->B
+L-2->L
+G+3->G
+E+5->E
+0->M
+4->C
+Goto 72
+Lbl 84
+5->C
+Goto 72
+Lbl 72
+Disp "P\V :"
+Disp H
+Disp "FORCE :"
+Disp B
+Disp "INTELLIGENCE :"
+Disp K
+Pause 
+ClrHome
+Disp "AGILITE :"
+Disp L
+Disp "POTION DE VIE :"
+Disp G
+Disp "OR :"
+Disp O
+Pause 
+ClrHome
+Disp "MANA :"
+Disp E
+Disp "ARMURE :"
+Disp M
+Pause 
+ClrHome
+Menu("VALIDER ?","OUI",31,"NON",0)
+Lbl 31
+If D=3 and C=2 or D=3 and C=3 or D=3 and C=4 or D=4 and C=2 or D=4 and C=3 or D=4 and C=4
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "PARADOXE"
+	Disp "CODE : 5437"
+	Pause 
+	ClrHome
+End
+Disp "VOUS DEVEZ TUER"
+Disp "ZIRK"
+Pause 
+ClrHome
+Lbl 42
+Menu("OU ALLER ?","GAUCHE",20,"DROITE",21)
+Lbl 21
+Disp "VOUS ARRIVEZ"
+Disp "UN DESERT, LA"
+Disp "CHALEUR VOUS"
+Disp "FAIT PERDRE :"
+randInt(1,25)->A
+Disp A
+X+A->X
+H-A->H
+If H<0
+0->H
+Disp "P\V RESTANT :"
+Disp H
+If H=0
+Then
+	Pause 
+	ClrHome
+	Disp "VOUS ETES MORT"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "BESOIN D EAU ?"
+	Disp "CODE : 6111"
+	Pause 
+	ClrHome
+	Goto 2
+End
+Pause 
+ClrHome
+Disp "VOUS ARRIVEZ"
+Disp "DEVANT UN COFFRE"
+Pause 
+ClrHome
+Menu("OUVRIR ?","OUI",89,"NON",90)
+Lbl 89
+randInt(1,5)->A
+If A>=1 and A<=4
+Then
+	Disp "OR TROUVE :"
+	randInt(10,20)->A
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	O+A->O
+	Disp O
+	Pause 
+	ClrHome
+	Goto 90
+End
+If A=5
+Then
+	Disp "LE COFFRE EST"
+	Disp "VIDE"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "QUEL ARNAQUE"
+	Disp "CODE : 1020"
+	Pause 
+	ClrHome
+	Goto 90
+End
+Lbl 90
+Disp "VOUS PARTEZ"
+Pause 
+ClrHome
+Goto 41
+Lbl 20
+Disp "VOUS ARRIVEZ SUR"
+Disp "UN PONT"
+Pause 
+ClrHome
+Menu("QUE FAIRE ?","LE TRAVERSER",22,"SAUTER",23,"RAQUETTER QQUN",24)
+Lbl 23
+If D=5
+Then
+	Disp "HEUREUSEMENT QUE"
+	Disp "VOUS SAVEZ VOLER"
+	Pause 
+	ClrHome
+	Goto 22
+End
+Disp "VOUS VOUS"
+Disp "ECRASEZ PAR"
+Disp "TERRE, VOUS ETES"
+Disp "MORT"
+Pause 
+ClrHome
+Disp "SUCCES"
+Disp "DEVEROUILLE :"
+Disp "SAUT DE L ANGE"
+Disp "CODE : 8164"
+Pause 
+ClrHome
+Goto 2
+Lbl 24
+randInt(1,5)->A
+A+L->A
+If A>=9
+Then
+	randInt(1,5)->A
+	O+A->O
+	Disp "REUSSITE,"
+	Disp "PIECES VOLEES :"
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 22
+Else
+	H-3->H
+	Disp "ECHEC, VOUS VOUS"
+	Disp "PRENEZ UN COUP"
+	Disp "DE POING DANS LE"
+	Disp "VENTRE, -3 P\V"
+	X+3->X
+	Disp "IL VOUS EN RESTE"
+	Disp H
+	Pause 
+	ClrHome
+	Goto 22
+	If H=0
+	Then
+		Disp "PERDU"
+		Goto 2
+	End
+End
+Lbl 22
+randInt(1,2)->A
+If A=1
+Then
+	Disp "UN BANDIT VOUS"
+	Disp "ATTAQUE"
+	1->N
+	25->F
+	9->J
+	7->V
+	Pause 
+	ClrHome
+	Goto 13
+Else
+	Goto 26
+End
+Lbl 25
+Disp "BUTIN :"
+randInt(5,20)->A
+O+A->O
+Disp "PO :"
+Disp A
+Disp "VOUS EN AVEZ :"
+Disp O
+Pause 
+ClrHome
+Goto 26
+Lbl 26
+Disp "VOUS ARRIVEZ"
+Disp "PRES D UNE FORET"
+Pause 
+ClrHome
+Menu("QUE FAIRE ?","ENTRER",27,"LA CONTOURNER",41)
+Lbl 27
+randInt(1,3)->A
+If A=1
+Then
+	2->N
+	45->F
+	18->J
+	3->V
+	Disp "UN OURS VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=2
+Then
+	3->N
+	35->F
+	13->J
+	2->V
+	Disp "UN SANGLIER VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=3
+Then
+	4->N
+	9->F
+	4->J
+	1->V
+	Disp "UN LAPIN VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+Lbl 29
+If N=2
+Then
+	Disp "BUTIN :"
+	randInt(1,3)->A
+	If A=1
+	Then
+		B+1->B
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU DE FORCE"
+		Disp "+1 FORCE"
+		Disp "VOS POINTS :"
+		Disp B
+		Pause 
+		ClrHome
+		Goto 32
+	End
+	If A=2
+	Then
+		randInt(5,10)->A
+		O+A->O
+		Disp "OR TROUVE :"
+		Disp A
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 32
+	End
+	If A=3
+	Then
+		G+1->G
+		Disp "VOUS TROUVEZ UNE"
+		Disp "POTION DE VIE,"
+		Disp "VOUS EN AVEZ :"
+		Disp G
+		Pause 
+		ClrHome
+		Goto 32
+	End
+End
+If N=3
+Then
+	Disp "BUTIN :"
+	randInt(1,10)->A
+	O+A->O
+	Disp "OR TROUVE :"
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 32
+End
+If N=3
+Then
+	Disp "BUTIN :"
+	Disp "1 OR"
+	O+1->O
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 32
+End
+Lbl 32
+Disp "VOUS SORTEZ DE"
+Disp "LA FORET"
+Pause 
+ClrHome
+Goto 41
+End
+Lbl 41
+Menu("OU ALLER ?","CAPITALE",33,"VILLE",45,"FLEUVE",35,"CIMETIERRE",51,"DONJON",70)
+Lbl 45
+Menu("VILLE","MAGASIN",46,"MAIRIE",53,"CHAMBRE A GAZ",59,"RETOUR",41)
+Lbl 59
+Disp "VOUS ETES MORT"
+Pause 
+ClrHome
+Disp "SUCCES"
+Disp "DEVEROUILLE :"
+Disp "DU MAL A"
+Disp "RESPIRER ?"
+Disp "CODE : 5638"
+Pause 
+ClrHome
+Goto 2
+Lbl 53
+Menu("QUE FAIRE ?","S INSCRIRE-5",54,"VOS RESOLUTION",49,"PARTIR",45)
+Lbl 49
+If W=0
+Then
+	Disp "VOUS N ETES PAS"
+	Disp "LE MAIRE"
+	Pause 
+	ClrHome
+	Goto 53
+End
+Menu("QUE CHOISIR ?","+1 OR",44,"ZIRK -10 FORCE",47,"RETOUR,49)
+Lbl 44
+Menu("VALIDER ?","NON",53,"NON",53,"NON",53,"NON",53,"OUI",48,"NON",53,"NON",53)
+Lbl 48
+Menu("VRAIMENT ?","NON",53,"OUI",60,"NON",53,"NON",53,"NON",53,"NON",53,"NON",53)
+Lbl 60
+Menu("VOUS ETES SUR?","NON",53,"NON",53,"NON",53,"NON",53,"NON",53,"OUI",66,"NON",53)
+Lbl 66
+Menu("ABSOLUMENT ?","NON",53,"NON",53,"NON",53,"OUI",63,"NON",53,"NON",53,"NON",53)
+Lbl 63
+Menu("GAGNER 1 OR ?","NON",53,"NON",53,"NON","NON",53,"NON",53,"NON",53,"OUI",65)
+Lbl 65
+Disp "OR +1"
+Disp "VOUS EN AVEZ :"
+O+1->O
+Disp O
+Pause 
+ClrHome
+Goto 53
+Lbl 47
+If W=2
+Then
+	Disp "RESOLUTION DEJA"
+	Disp "PRISE"
+	Pause 
+	ClrHome
+	Goto 49
+End
+2->W
+Disp "RESOLUTION PRISE"
+Pause 
+ClrHome
+Goto 49
+Lbl 54
+If W>0
+Then
+	Disp "VOUS ETES DEJA"
+	Disp "LE MAIRE"
+	Pause 
+	ClrHome
+	Goto 53
+End
+If O<5
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 53
+End
+O-5->O
+Disp "OR RESTANT :"
+Disp O
+Pause 
+ClrHome
+Disp "RESULTAT :"
+Disp "UMP :"
+randInt(50,100)->A
+Disp A
+Disp "PS :"
+randInt(50,100)->R
+Disp R
+Disp "VOUS :"
+If A>R
+Then
+	randInt(0,51)->R
+	R+Y->R
+	Disp R
+	Pause 
+	ClrHome
+	If R>A
+	Then
+		Disp "GAGNE"
+		1->W
+		Pause 
+		ClrHome
+	End
+Else
+	randInt(0,51)->A
+	A+Y->A
+	Disp A
+	Pause 
+	ClrHome
+	If A>R
+	Then
+		Disp "GAGNE"
+		1->W
+		Pause 
+		ClrHome
+	End
+End
+If W=0
+Then
+	Disp "PERDU"
+	Pause 
+	ClrHome
+End
+If W=1
+Then
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "MIEUX QUE"
+	Disp "HOLANDE"
+	Disp "CODE : 4502"
+	Pause 
+	ClrHome
+End
+Goto 53
+Lbl 46
+Disp "VOTRE OR :"
+Disp O
+Pause 
+ClrHome
+Menu("MAGASIN","VOTE +1-2",62,"RETOUR",45)
+Lbl 62
+If O<2
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 46
+Else
+	O-2->O
+	Y+1->Y
+	Goto 46
+End
+Lbl 52
+Menu("PARTIR ?","OUI",41,"NON",51)
+Lbl 51
+randInt(1,10)->A
+If A=1
+Then
+	Disp "UN ELFE NOIR"
+	Disp "VOUS ATTAQUE"
+	Pause 
+	ClrHome
+	18->N
+	18->J
+	50->F
+	8->V
+	Goto 13
+End
+If A=2
+Then
+	Disp "UN ZOMBIE VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	19->N
+	12->J
+	600->F
+	1->V
+	Goto 13
+End
+If A=3
+Then
+	Disp "UN SQUELETTE"
+	Disp "VOUS ATTAQUE"
+	Pause 
+	ClrHome
+	20->N
+	25->J
+	35->F
+	3->V
+	Goto 13
+End
+If A=4
+Then
+	Disp "UN VAMPIRE VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	21->N
+	40->F
+	22->J
+	6->V
+	Goto 13
+End
+If A=5
+Then
+	Disp "UN FANTOME VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	22->N
+	15->F
+	15->J
+	3->V
+	Goto 13
+End
+If A=6
+Then
+	Disp "UN NECROMANCIEN"
+	Disp "VOUS ATTAQUE"
+	23->N
+	6->J
+	35->F
+	1->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=7
+Then
+	Disp "UN VER DE TERRE"
+	Disp "VOUS ATTAQUE"
+	24->N
+	0->J
+	1->F
+	1->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=8
+Then
+	Disp "UN DRAGON"
+	Disp "SPECTRAL VOUS"
+	Disp "ATTAQUE"
+	25->N
+	35->J
+	100->F
+	5->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=9
+Then
+	Disp "UN NAIN NOIR"
+	Disp "VOUS ATTAQUE"
+	26->N
+	27->J
+	60->F
+	2->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=10
+Then
+	Disp "UNE CHAUVE-"
+	Disp "SOURIS VOUS"
+	Disp "ATTAQUE"
+	27->N
+	12->J
+	25->F
+	6->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+Lbl 99
+Disp "BUTIN :"
+If N=18
+Then
+	randInt(1,4)->A
+	If A=1 or A=2 or A=3
+	Then
+		randInt(5,30)->A
+		Disp "OR TROUVE :"
+		Disp A
+		Disp "VOUS EN AVEZ :"
+		O+A->O
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	Else
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU DE FORCE,"
+		Disp "+1 EN FORCE,"
+		Disp "VOUS EN AVEZ :"
+		B+1->B
+		Disp B
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=19
+Then
+	randInt(1,4)->A
+	If A=1
+	Then
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU DE"
+		Disp "VITALITE, VIE"
+		Disp "MAX +2, VOUS EN"
+		Disp "AVEZ :"
+		I+2->I
+		Disp I
+		Pause 
+		ClrHome
+		Goto 52
+	Else
+		randInt(10,20)->A
+		O+A->O
+		Disp "OR TROUVE :"
+		Disp A
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=20
+Then
+	randInt(5,40)->A
+	Disp "OR TROUVE"
+	Disp A
+	O+A->O
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 52
+End
+If N=21
+Then
+	randInt(1,3)->A
+	If A=1
+	Then
+		Disp "MANA TROUVE :"
+		randInt(1,5)->A
+		E+A->E
+		Disp "VOUS EN AVEZ :"
+		Disp E
+		Pause 
+		ClrHome
+		Goto 52
+	Else
+		randInt(5,25)->A
+		Disp "OR TROUVE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=22
+Then
+	randInt(1,10)->A
+	O+A->O
+	Disp "OR TROUVE :"
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 52
+End
+If N=23
+Then
+	randInt(1,2)->A
+	If A=1
+	Then
+		Disp "MANA GAGNE :"
+		randInt(1,7)->A
+		Disp A
+		E+A->E
+		Disp "VOUS EN AVEZ :"
+		Disp E
+		Pause 
+		ClrHome
+		Goto 52
+	Else
+		Disp "OR TROUVE :"
+		randInt(10,40)->A
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=24
+Then
+	randInt(1,2)->A
+	If A=1
+	Then
+		Disp "AUCUN"
+		Pause 
+		ClrHome
+		Goto 52
+	Else
+		Disp "+1 OR"
+		Disp "VOUS EN AVEZ :"
+		O+1->O
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+	randInt(1,5)->A
+	If A=1
+	Then
+		Disp "UN VERS GEANT"
+		Disp "VIENT VENGER SON"
+		Disp "BEBE"
+		Pause 
+		ClrHome
+		33->N
+		70->F
+		30->J
+		Goto 13
+		Lbl 95
+		Disp "BUTIN :"
+		randInt(1,3)->A
+		Disp "OR TROUVE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=25
+Then
+	Disp "OR TROUVE :"
+	randInt(25,75)->A
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	O+A->O
+	Disp O
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "CE N EST Q UN"
+	Disp "GRAND LEZARD"
+	Disp "AILE"
+	Disp "CODE : 1200"
+	Pause 
+	ClrHome
+	Goto 52
+End
+If N=26
+Then
+	randInt(1,6)->A
+	If A=7
+	Then
+		Disp "+1 DE POUDRE A"
+		Disp "CANON, VOUS EN"
+		Disp "AVEZ :"
+		C+1->C
+		Disp C
+		Pause 
+		ClrHome
+		Goto 52
+	End
+	If A=6
+	Then
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU D ARMURE,"
+		Disp "+1 EN ARMURE"
+		M+1->M
+		Disp "VOUS EN AVEZ :"
+		Disp M
+		Pause 
+		ClrHome
+		Goto 52
+	End
+	If A=5
+	Then
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU DE FORCE,"
+		Disp "+1 EN FORCE"
+		B+1->B
+		Disp "VOUS EN AVEZ :"
+		Disp B
+		Pause 
+		ClrHome
+		Goto 52
+	End
+	If A=4
+	Then
+		Disp "VOUS TROUVEZ UN"
+		Disp "ANNEAU MAJEUR DE"
+		Disp "FORCE, +2 EN"
+		Disp "FORCE, VOUS EN"
+		B+2->B
+		Disp "AVEZ :"
+		Disp B
+		Pause 
+		ClrHome
+		Goto 52
+	End
+	If A>=1 and A<=3
+	Then
+		randInt(15,50)->A
+		Disp "OR TROUVE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 52
+	End
+End
+If N=27
+Then
+	Disp "OR TROUVE :"
+	randInt(1,3)->A
+	O+A->O
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 52
+End
+Lbl 33
+Menu("CAPITALE","GUERRISSEUR-15",36,"MARCHAND",37,"SALLE DE GYM-5",38,"BIBLIOTHEQUE-5",39,"LOTERIE",40,"INFOS JOUEUR",50,"PARTIR",41)
+Lbl 50
+Disp "VOTRE RACE :"
+If D=1
+Disp "HUMAIN"
+If D=2
+Disp "ELFE VERT"
+If D=3
+Disp "NAIN"
+If D=4
+Disp "HOBBIT"
+If D=5
+Disp "CANARD"
+Disp "VOTRE CLASSE :"
+If C=1
+Disp "GUERRIER"
+If C=2
+Disp "MAGE"
+If C=3
+Disp "VOLEUR"
+If C=4
+Disp "PRETRE"
+If C=5
+Disp "RANGER"
+Disp "VOS P\V MAX :"
+Disp I
+Pause 
+ClrHome
+Disp "VOS P\V :"
+Disp H
+Disp "VOTRE FORCE :"
+Disp B
+Disp "VOTRE INTELLECT:"
+Disp K
+Pause 
+ClrHome
+Disp "VOTRE AGILITE :"
+Disp L
+Disp "VOS POTIONS :"
+Disp G
+Disp "VOTRE OR :"
+Disp O
+Pause 
+ClrHome
+Disp "VOTRE MANA :"
+Disp E
+Disp "VOTRE ARMURE :"
+Disp M
+Disp "VOTRE POUDRE A"
+Disp "CANON :"
+Disp T
+Pause 
+ClrHome
+Goto 33
+Lbl 36
+If O<15
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 33
+End
+If H=I
+Then
+	Disp "VOTRE VIE EST"
+	Disp "DEJA AU MAXIMUM"
+	Pause 
+	ClrHome
+	Goto 33
+End
+I->H
+O-15->O
+Disp "OR RESTANT :"
+Disp O
+Disp "VOS P\V :"
+Disp H
+Pause 
+ClrHome
+Goto 33
+Lbl 37
+Disp "VOTRE OR :"
+Disp O
+Pause 
+ClrHome
+Lbl 97
+Menu("MARCHAND","ARMURE +2-40",98,"FORCE +3-40",94,"VIE MAX +10-30",87,"MANA +5-20",96,"POTION VIE-10",88,"RETOUR",33)
+Lbl 98
+If O<40
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 97
+Else
+	M+2->M
+	O-40->O
+	Disp "VOS POINTS"
+	Disp "D ARMURE :"
+	Disp M
+	Disp "OR RESTANT :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 97
+End
+Lbl 96
+If O<20
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 97
+Else
+	O-20->O
+	Disp "VOTRE MANA :"
+	E+5->E
+	Disp E
+	Disp "OR RESTANT :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 97
+End
+Lbl 94
+If O<40
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 37
+Else
+	B+3->B
+	Disp "VOTRE FORCE :"
+	Disp B
+	Disp "OR RESTANT :"
+	O-40->O
+	Disp O
+	Pause 
+	ClrHome
+	Goto 97
+End
+Lbl 87
+If O<30
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 37
+Else
+	O-30->O
+	Disp "OR RESTANT :"
+	Disp O
+	Disp "P\V MAX :"
+	I+10->I
+	Disp I
+	Pause 
+	ClrHome
+	Goto 97
+End
+Lbl 88
+If O<10
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 97
+Else
+	O-10->O
+	G+1->G
+	Disp "VOTRE OR :"
+	Disp O
+	Disp "VOS POTIONS :"
+	Disp G
+	Pause 
+	ClrHome
+	Goto 97
+End
+Lbl 38
+If O<5
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 33
+End
+L+1->L
+O-5->O
+Disp "OR RESTANT :"
+Disp O
+Disp "+1 AGILITE"
+Disp "VOUS EN AVEZ :"
+Disp L
+Pause 
+ClrHome
+Goto 33
+Lbl 39
+If O<5
+Then
+	Disp "PAS ASSEZ D OR"
+	Pause 
+	ClrHome
+	Goto 33
+End
+O-5->O
+K+1->K
+Disp "OR RESTANT :"
+Disp O
+Disp "+1 INTELLIGENCE"
+Disp "VOUS EN AVEZ :"
+Disp K
+Pause 
+ClrHome
+Disp "VOUS AVEZ LU :"
+randInt(1,10)->A
+If A=1
+Then
+	Disp "ENCYCLOPEDIE"
+	Disp "UNIVERSALIS"
+End
+If A=2
+Disp "FAIRY TAIL"
+If A=3
+Then
+	Disp "PROGRAMMEZ AVEC"
+	Disp "LE LANGUAGE C++"
+End
+If A=4
+Disp "TRANSMATH"
+If A=5
+Then
+	Disp "LE DONJON DE"
+	Disp "NAHEULBEUK"
+End
+If A=6
+Disp "LES ELFES"
+If A=7
+Then
+	Disp "RONDES ET"
+	Disp "COMPTINES DES"
+	Disp "4 SAISONS"
+End
+If A=8
+Disp "LE GRAND VOYAGE"
+If A=9
+Disp "LE FIGARO"
+If A=10
+Disp "TELE 7 JOURS"
+Pause 
+ClrHome
+Goto 33
+Lbl 40
+Disp "VOTRE OR :"
+Disp O
+Input "VOTRE MISE : ",P
+randInt(1,5)->A
+If P>O
+O->P
+O-P->O
+If A=1
+Then
+	Disp "GAGNE, MISE *3"
+	P*3->P
+	Disp "VOTRE OR :"
+	O+P->O
+	Disp O
+	Pause 
+	ClrHome
+	Goto 33
+Else
+	Disp "PERDU"
+	Disp "OR RESTANT :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 33
+End
+Lbl 35
+Menu("QUE FAIRE ?","LE TRAVERSER",85,"SE BAIGNER",43,"RETOUR",41)
+Lbl 43
+If D=5
+Then
+	Disp "VOUS REGAGNEZ"
+	Disp "TOUTE VOTRE VIE"
+	Disp "VOS P\V :"
+	I->H
+	Disp H
+	Pause 
+	ClrHome
+	Goto 35
+End
+Disp "VOUS NE SAVEZ"
+Disp "PAS NAGER, VOUS"
+Disp "ETES MORT"
+Pause 
+ClrHome
+Disp "SUCCES"
+Disp "DEVEROUILLE :"
+Disp "J AVAIS PAS PIED"
+Disp "CODE : 8720"
+Pause 
+ClrHome
+Goto 2
+Lbl 86
+Menu("PARTIR ?","OUI",41,"NON",85)
+Lbl 85
+randInt(1,10)->A
+If A=1
+Then
+	12->N
+	2->J
+	4->F
+	1->V
+	Disp "UNE SOURIS VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=2
+Then
+	13->N
+	11->J
+	26->F
+	3->V
+	Disp "UN CHEVAL VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=3
+Then
+	14->N
+	32->F
+	16->J
+	4->V
+	Disp "UN TAUREAU VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=4
+Then
+	15->N
+	17->J
+	35->F
+	7->V
+	Disp "UN PIKATCHU VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=5
+Then
+	16->N
+	18->J
+	50->F
+	8->V
+	Disp "UN ELFE NOIR"
+	Disp "VOUS ATTAQUE"
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=6
+Then
+	Disp "UN CREEPER VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	28->N
+	999->J
+	15->F
+	3->V
+	Goto 13
+End
+If A=7
+Then
+	Disp "UN GOOMBA VOUS"
+	Disp "ATTAQUE"
+	29->N
+	6->F
+	3->J
+	1->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=8
+Then
+	Disp "UNE GUEPE VOUS"
+	Disp "ATTAQUE"
+	30->N
+	21->J
+	15->F
+	7->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=9
+Then
+	Disp "UN CAMPEUR VOUS"
+	Disp "ATTAQUE"
+	31->N
+	15->J
+	25->F
+	7->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+If A=10
+Then
+	Disp "UN PIGEON VOUS"
+	Disp "ATTAQUE"
+	32->N
+	5->J
+	12->F
+	7->V
+	Pause 
+	ClrHome
+	Goto 13
+End
+Lbl 80
+If N=12
+Then
+	Disp "BUTIN :"
+	randInt(1,2)->A
+	Disp "OR TROUVE :
+	Disp A
+	Disp "VOUS EN AVEZ :"
+	O+A->O
+	Disp O
+	Pause 
+	ClrHome
+	Goto 86
+End
+If N=13
+Then
+	Disp "BUTIN :"
+	randInt(1,3)->A
+	If A=1
+	Then
+		Disp "BOITE DE FINDUS,"
+		Disp "CA COMPTE COMME"
+		Disp "UNE POTION"
+		Disp "VOUS EN AVEZ :"
+		G+1->G
+		Disp G
+		Pause 
+		ClrHome
+		Goto 86
+	End
+	If A=2 or A=3
+	Then
+		randInt(1,10)->A
+		Disp "OR TROUVE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=14
+Then
+	Disp "BUTIN :"
+	randInt(5,10)->A
+	Disp "OR TROUVE :"
+	Disp A
+	O+A->O
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 86
+End
+If N=15
+Then
+	Disp "BUTIN :"
+	randInt(1,2)->A
+	If A=1
+	Then
+		randInt(1,5)->A
+		E+A->E
+		Disp "MANA GAGNE :"
+		Disp A
+		Disp "VOUS EN AVEZ :"
+		Disp E
+		Pause 
+		ClrHome
+		Goto 86
+	End
+	If A=2
+	Then
+		randInt(1,15)->A
+		Disp "OR GAGNE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=16
+Then
+	Disp "BUTIN :"
+	randInt(1,4)->A
+	If A=1 or A=2 or A=3
+	Then
+		randInt(5,30)->A
+		Disp "OR TROUVE :"
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	End
+	If A=4
+	Then
+		Disp "VOUS TROUVEZ UN"
+		Disp "UN ANNEAU , +1"
+		Disp "EN FORCE"
+		B+1->B
+		Disp "VOUS EN AVEZ :"
+		Disp B
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=28
+Then
+	Disp "BUTIN :"
+	randInt(1,3)->A
+	If A=1
+	Then
+		Disp "OR TROUVE :"
+		randInt(1,5)->A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	Else
+		T+1->T
+		Disp "+1 POUDRE A"
+		Disp "CANON, VOUS EN"
+		Disp "AVEZ :"
+		Disp T
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=29
+Then
+	Disp "BUTIN :"
+	randInt(1,2)->A
+	If A=1
+	Then
+		Disp "AUCUN"
+		Pause 
+		ClrHome
+		Goto 86
+	Else
+		Disp "+1 OR"
+		O+1->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=30
+Then
+	Disp "BUTIN :"
+	Disp "OR TROUVE :"
+	randInt(1,3)->A
+	Disp A
+	O+A->O
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 86
+End
+If N=31
+Then
+	Disp "BUTIN :"
+	randInt(1,4)->A
+	If A=1
+	Then
+		Disp "+1 POTION DE VIE"
+		Disp "VOUS EN AVEZ :"
+		G+1->G
+		Disp G
+		Pause 
+		ClrHome
+		Goto 86
+	Else
+		Disp "OR TROUVE :"
+		randInt(1,15)->A
+		Disp A
+		O+A->O
+		Disp "VOUS EN AVEZ :"
+		Disp O
+		Pause 
+		ClrHome
+		Goto 86
+	End
+End
+If N=32
+Then
+	Disp "OR TROUVE :"
+	randInt(1,5)->A
+	Disp A
+	O+A->O
+	Disp "VOUS EN AVEZ :"
+	Disp O
+	Pause 
+	ClrHome
+	Goto 86
+End
+Lbl 70
+Disp "VOUS ENTREZ"
+Pause 
+ClrHome
+If Q=0
+Then
+	Disp "ZIRK VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	11->N
+	75->F
+	25->J
+	If Y=1
+	15->J
+	8->V
+	Goto 13
+	Lbl 79
+	17->N
+	150->F
+	75->J
+	If Y=1
+	65->J
+	12->V
+	Disp "ZIRK CHANGE DE"
+	Disp "FORME"
+	Pause 
+	ClrHome
+	Goto 13
+	Lbl 91
+	Disp "BRAVO, VOUS AVEZ"
+	Disp "GAGNE"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "MAIS EN FAITE,"
+	Disp "POURQUOI T EST"
+	Disp "JE TUER ?"
+	Disp "CODE : 8202"
+	Pause 
+	ClrHome
+	If C=5 and D=5
+	Then
+		Disp "SUCCES"
+		Disp "DEVEROUILE :"
+		Disp "TROP FORT"
+		Disp "L ANIMAL"
+		Disp "CODE : 2842"
+		Pause 
+		ClrHome
+	End
+	Disp "VOUS AVEZ TUER"
+	Disp "ZIRK, ENVIE DE"
+	Disp "TUER DIEU ?"
+	Disp "CODE : 8719"
+	Pause 
+	ClrHome
+Else
+	Disp "DIEU VOUS"
+	Disp "ATTAQUE"
+	Pause 
+	ClrHome
+	34->N
+	250->F
+	125->J
+	17->V
+	Goto 13
+	Lbl 74
+	Disp "VOUS ETES"
+	Disp "VRAIMENT FORT"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "PAS CROYANT"
+	Disp "CODE : 3429"
+	Pause 
+	ClrHome
+	If C=5 and D=5
+	Then
+		Disp "SUCCES"
+		Disp "DEVEROUILLE :"
+		Disp "CE QUI COMPTER,"
+		Disp "C EST LA"
+		Disp "VOLONTE"
+		Pause 
+		ClrHome
+	End
+	Lbl 93
+	Disp "CREDIT :"
+	Pause 
+	ClrHome
+	Disp "IDEE DE BASE :"
+	Pause 
+	ClrHome
+	Disp "BADET--DENISOT"
+	Disp "FRANCOIS-XAVIER"
+	Pause 
+	ClrHome
+	Disp "PROGRAMMATION :"
+	Pause 
+	ClrHome
+	Disp "CHAUX CHRISTIAN"
+	Pause 
+	ClrHome
+	Disp "TESTS :"
+	Pause 
+	ClrHome
+	Disp "CHAMPION COLIN"
+	Pause 
+	ClrHome
+	Disp "DISLAIR GEOFFREY"
+	Pause 
+	ClrHome
+	Disp "LECHEVIN JORIS"
+	Pause 
+	ClrHome
+	Disp "PEGARD ENZO"
+	Pause 
+	ClrHome
+	Disp "PINAUD LORENZO"
+	Pause 
+	ClrHome
+	Disp "SUCCES"
+	Disp "DEVEROUILLE :"
+	Disp "MINCE, JE NE"
+	Disp "SUIS PAS DEDANS"
+	Disp "CODE : 9875"
+	Pause 
+	ClrHome
+	Goto 2
